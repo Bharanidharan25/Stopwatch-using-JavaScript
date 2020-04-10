@@ -1,0 +1,40 @@
+<html>
+    <head>
+        <title>
+            Stopwatch Using JS
+        </title>
+        <link rel="stylesheet" type="text/css" href="./index.css">
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Roboto'>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+    <body>
+        <header>
+            <h1>
+                Stopwatch Using JS
+            </h1>
+        </header>
+        <div class="container">
+        <p id="timer">
+            00:00:00
+        </p>
+        <div class="buttons">
+            <a id="strtbtn" href="#" onclick="start()">START</a>
+            <a id="pause" href="#" onclick="pause()">PAUSE</a>
+            <a id="lapBtn" href="#" onclick="lap()">LAP</a>
+        </div>
+
+        <div class="lapList">
+            <ul style="list-style-type: none;">
+                
+            </ul>
+        </div>
+
+        <div class="resetBtn">
+            <a id="RESET" href="#" onclick="reset()">RESET</a>
+        </div>
+        </div>
+        <script src="./index.js"></script>
+    </body>
+</html>
